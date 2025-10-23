@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/foodrecovery/public_html/frn-rpi/
+    - /bin/cp -R public/* $DEPLOYPATH
+    - /bin/cp -R static $DEPLOYPATH
